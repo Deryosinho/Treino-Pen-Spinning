@@ -1,0 +1,119 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, helvetica, sans-serif;
+}
+
+:root {
+    --cor01:#B5D9F3;
+    --cor02:#77B5DB;
+    --cor03:#0687C1;
+    --cor04:#0167A7;
+    --cor05:#404E5B;
+   
+   
+    --fonte-padrao: Arial, helvetica, sans-serif;
+    --fonte-destaque:'Dela Gothic One', cursive;
+}
+
+body {
+    background-image: linear-gradient(to right,var(--cor01), var(--cor02));
+}
+
+
+header {
+    background-image: linear-gradient(to left,var(--cor03), var(--cor05));
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border: solid black;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 3em;
+    font-family: var(--fonte-destaque);
+
+    
+}
+
+nav {
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+nav a {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5em;
+    padding: 2px;
+    margin: 0px;
+    width: 60px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 5px;
+
+}
+
+nav a:hover {
+    color: black;
+    background-color: var(--cor01);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin-bottom: 30px;
+   
+}
+
+main p {
+    text-align: justify;
+}
+
+main h2 {
+    font-weight: bold;
+    font-family: var(--fonte-padrao);
+    padding: 5px;
+    background-image: linear-gradient(to right, var(--cor03), transparent);
+    border-radius: 5px;
+    margin: 10px;
+    
+
+}
+
+main p {
+    text-indent: 20px;
+    padding: 10px;
+}
+
+.content {
+    text-align: justify;
+}
+
+main img {
+    width: 30%;
+    margin: auto;
+    align-items: right;
+}
+
+
+footer {
+    background-image: linear-gradient(to left,var(--cor04),black);
+    padding: 10px;
+    color: white;
+    text-align: center;
+
+}
+
+
