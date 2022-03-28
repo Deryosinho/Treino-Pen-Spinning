@@ -54,8 +54,6 @@ nav a {
     padding: 10px;
     margin: 10px;
     font-size: 1.5em;
-    padding: 2px;
-    margin: 0px;
     width: 60px;
     color: white;
     text-align: center;
@@ -77,8 +75,10 @@ main {
    
 }
 
-main p {
-    text-align: justify;
+main a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
 }
 
 main h2 {
@@ -88,13 +88,33 @@ main h2 {
     background-image: linear-gradient(to right, var(--cor03), transparent);
     border-radius: 5px;
     margin: 10px;
-    
-
 }
+
+.links {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    width: 1px;
+    padding: 10px;
+    font-weight: bolder;
+    display: block;
+}
+
+.links:hover {
+    color: var(--cor05);
+}
+
 
 main p {
     text-indent: 20px;
     padding: 10px;
+    text-align: justify;
+}
+
+.paragrafos {
+    padding: 10px;
+    margin: 10px;
+    margin-left: 20px;
 }
 
 main img {
@@ -102,6 +122,22 @@ main img {
     margin: auto;
     align-items: right;
 }
+
+main h3 {
+    padding: 5px;
+    margin: 5px;
+    font-weight: bolder;
+    
+}
+
+.dedos {
+    padding: 10px;
+    text-indent: 10px;
+    margin: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
 
 
 footer {
